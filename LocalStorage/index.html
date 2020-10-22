@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <section><h1>Save in local storage</h1></section>
+
+    <section>
+        <div>
+            <input type="text" id="name">
+            <input type="text" id="idUser" placeholder="Cedula">
+            <button id="btn_save">Save</button>
+        </div>
+        <div style="margin-top: 20px;">
+            <input type="text" id="nameUsr">
+            <input type="text" id="idUsr" placeholder="Cedula">
+            <input type="text" id="ageUsr" placeholder="edad">
+            <input type="text" id="hobieUsr" placeholder="pasatiempo">
+
+            <button onclick="save_ArraylocalStorage()" >Save Array</button>
+        </div>
+        <div style="margin-top: 20px;" id="usuarios"></div>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
