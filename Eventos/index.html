@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/timers.js"></script>
+    <title>Eventos Java script</title>
+</head>
+<body>
+    <div style="margin: 100px; width: 400px; height: 200px; position: relative; background-color: grey;">
+        <div>
+            <h1 style="background:lightblue; text-align: center;">
+                Eventos del Mouse
+            </h1>
+        </div>
+        <div style="margin: 60px;">
+            <button  id="btn1" class="text" style="margin:10px; width: 90px;height: 50px;">Click</button>
+            <!--ondbl es para doble click-->
+            <button class="text1" style="margin:10px; width: 90px;height: 50px;">Mouse Over</button>
+        </div>
+    </div>
+    <div style="margin: 100px; width: 400px; height: 200px; position: relative; background-color: grey;">
+        <div>
+            <h1 style="background:lightblue; text-align: center;">
+                Eventos del Teclado
+            </h1>
+        </div>
+        <form action="">
+            <p class="mensaje_focus" style="display: none;">[FOCUS]Estas haciendo focus</p>
+            <p class="mensaje_blur" style="display: none;">[BLUR]Estas saliendo del focus</p>
+            <input type="text" name="nombre" id="campo_nombre"/>
+           
+        </form>
+    </div>
+
+    <div style="margin: 100px; width: 400px; height: 200px; position: relative; background-color: grey;">
+        <div style="background:lightblue;">
+            <h1 class="timerTitle" style="text-align: center;">
+                Timers
+            </h1>
+        </div>
+        <div style="margin: 60px;">
+            <button  id="btn1" class="stopInterval" style="margin:10px; width: 90px;height: 50px;">StopInterval</button>
+            <button  id="btn1" class="startInterval" style="margin:10px; width: 90px;height: 50px;">StartInterval</button>
+        </div>
+    </div>
+
+
+    <script src="./js/events.js"></script>
+</body>
+</html>
