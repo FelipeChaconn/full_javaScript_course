@@ -1,0 +1,3 @@
+DOM = Document Object Model (Todos los elementos en una pagina web Etiquetas y todo)
+BOM = Browswer Object Model (Permite manejar el navegador web)
+Callbacks = Son funciones anonimas  dentro de otra funcion se pasan por parametros
